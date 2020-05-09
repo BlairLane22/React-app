@@ -41,14 +41,14 @@ function App() {
     }
   }, [fromCurrency, toCurrency])
 
-  function handleFromAmountChange(e) {
-    setAmount(e.target.value)
-    setAmountInFromCurrency(true)
-  }
-
   function handleToAmountChange(e) {
     setAmount(e.target.value)
     setAmountInFromCurrency(false)
+  }
+
+  function handleFromAmountChange(e) {
+    setAmount(e.target.value)
+    setAmountInFromCurrency(true)
   }
 
   return (
