@@ -1,13 +1,13 @@
 import React from 'react'
 
-export default function ExchangeCurrency(props) {
-  const {
+export default function ExchangeCurrency(
+  {
     currencyOptions,
     selectedCurrency,
     onChangeCurrency,
     onChangeAmount,
     amount
-  } = props
+  }) {
 
   return (
     <div>
